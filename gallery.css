@@ -1,27 +1,39 @@
-div.header li{
-	display:inline;
-	border-radius: 70%;
-	border: 1px solid black;
-	padding:10px 10px 10px 10px;
+div.logo{
+	float: left;
+	height: 250px;
+	width: 250px;
+	border: 1px solid green;
+}
+div.logo img{
+	height: 100px;
+	width: 100px;
 }
 
+div.header li{
+	display:inline;
+	}
+div.header li img{
+	width:32px;
+}
 div.header{
-	width:100%;
-	position: relative;
+	width:80%;
 	text-align: right;
 	z-index:1;
 	border:1px solid black;
-	margin-top:150px;
+	height: 250px;
+	margin-left: 280px;
+	
+}
+div.header div.inner{
+	margin-top: 150px;
 
 }
-
 div.gallery{
 	border:1px solid red;
-	height: 1200px;
-	position: relative;
-    right: 0px;
-    left:280px;
+    margin-left:280px;
     width:80%;
+   	text-align: left;
+
 }
 
 div.navigation{
@@ -30,6 +42,7 @@ div.navigation{
 	width:250px;
 	float:left;
 	position:relative;
+	clear:left;
 }
 
 div ul{
@@ -42,12 +55,16 @@ div a{
 	text-decoration: none;
 }
 
-.submenu-elements a{
-	overflow: hidden; /*not working*/
+.submenu-elements{
+	display:none; 
 }
 
- a.submenu:hover{
-	font-weight: bold; /*not working*/
+#gallery-link:hover .submenu-elements{
+	display: block;
+}
+
+ .navigation a:hover{
+	font-weight: bold; 
 }
 
 div.header li{
@@ -56,4 +73,10 @@ div.header li{
 	position: relative;
 	margin-right: 10px;
 }
-
+div.gallery img{
+	height: 100px;
+	padding: 10px;
+}
+div.inner{
+	padding: 10px;
+}
