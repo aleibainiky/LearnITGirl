@@ -27,6 +27,7 @@ div.header{
 	/*border:1px solid black;*/
 	height: 250px;
 	margin-left: 280px;
+	border: 1px solid #fff;
 }
 div.header div.inner{
 	margin-top: 150px;
