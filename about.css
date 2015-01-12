@@ -52,16 +52,21 @@ div.navigation{
 	position:relative;
 	clear:left;
 }
+@font-face {
+	font-family: 'BebasNeue Light';
+	src: url('fonts/BebasNeue Light.eot');
+	src: local('BebasNeue Light'), url('fonts/BebasNeue Light.ttf');
+}
+
 div p{
-	font-family:Verdana, sans-serif;
-	font-size:14px;
-	
-	
+	font-family:'BebasNeue Light', Verdana, sans-serif;
+	font-size:24px;
+	color:#969393;
 }
 
 div ul{
-	font-family:Verdana, sans-serif;
-	font-size:16px;
+	font-family:'BebasNeue Light', Verdana, sans-serif;
+	font-size:28px;
 	list-style-type: none;
 }
 
