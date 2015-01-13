@@ -44,7 +44,7 @@ div.main{
    	text-align: center;
    	font-family:'BebasNeue Book', Verdana, sans-serif;
 	font-size:24px;
-	color:#969393;
+	color:#393838;
 
 }
 
@@ -66,9 +66,13 @@ div ul{
 	font-size:28px;
 	list-style-type: none;
 }
+div.navigation a {
+	color:#393838;
+	text-decoration: none;
+}
 
 div a{
-	color:#3b3b3b;
+	color:#969393;
 	text-decoration: none;
 }
 
