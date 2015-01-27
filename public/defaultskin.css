@@ -105,7 +105,8 @@
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
-      user-select: none; }
+      user-select: none; 
+    }
 
 .pswp__share-modal {
   display: block;
@@ -215,7 +216,8 @@ a.pswp__share--download:hover {
   line-height: 44px;
   color: #FFF;
   opacity: 0.75;
-  padding: 0 10px; }
+  padding: 0 10px; 
+font-family: 'BebasNeue Regular', sans-serif; }
 
 .pswp__caption {
   position: absolute;
@@ -398,3 +400,7 @@ a.pswp__share--download:hover {
 
 .pswp--minimal--dark .pswp__top-bar {
   background: none; }
+
+.pswp__error-msg {
+  font-family: 'BebasNeue Regular', sans-serif;
+}
