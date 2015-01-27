@@ -14,38 +14,14 @@
 </div>-->
 <div class="gallery">
 	<div class="inner demo-gallery">
+		<% @photos.each do |name, width, height| %>
 
-		 <a href="2.jpg" data-size="1600x988" data-author="AB" class="demo-gallery__img--main">
-	          <img src="2.jpg" alt="" /></a>	        
-	     <a href="4.jpg" data-size="1600x736" data-author="Folkert Gorter" class="demo-gallery__img--main">
-	          <img src="4.jpg" alt="" /></a>
-	     <a href="3.jpg" data-size="1600x736" data-author="Folkert Gorter" class="demo-gallery__img--main">
-	          <img src="3.jpg" alt="" /></a>  
-	     <a href="BNKY-0050.jpg" data-size="1600x1061" data-author="Folkert Gorter" class="demo-gallery__img--main">
-	          <img src="BNKY-0050.jpg" alt="" /></a>    
-	     <a href="BNKY-0199.jpg" data-size="1060x1600" data-author="Folkert Gorter" class="demo-gallery__img--main">
-	          <img src="BNKY-0199.jpg" alt="" /></a>  
-	     <a href="BNKY-0270.jpg" data-size="1600x1060" data-author="Folkert Gorter" class="demo-gallery__img--main">
-	          <img src="BNKY-0270.jpg" alt="" /></a> 
-		 <a href="BNKY-0275.jpg" data-size="1600x1060" data-author="Folkert Gorter" class="demo-gallery__img--main">
-	          <img src="BNKY-0275.jpg" alt="" /></a> 
-	     <a href="BNKY-0355.jpg" data-size="1060x1600" data-author="Folkert Gorter" class="demo-gallery__img--main">
-	          <img src="BNKY-0355.jpg" alt="" /></a>
-	     <a href="BNKY-0655-2.jpg" data-size="1600x1060" data-author="Folkert Gorter" class="demo-gallery__img--main">
-	          <img src="BNKY-0655-2.jpg" alt="" /></a>
-	     <a href="BNKY-9899.jpg" data-size="1060x1600" data-author="Folkert Gorter" class="demo-gallery__img--main">
-	          <img src="BNKY-9899.jpg" alt="" /></a>
-  		 <a href="BNKY-0655.jpg" data-size="1600x1060" data-author="Folkert Gorter" class="demo-gallery__img--main">
-	          <img src="BNKY-0655.jpg" alt="" /></a>
-	     <a href="BNKY-5659.jpg" data-size="1600x1060" data-author="Folkert Gorter" class="demo-gallery__img--main">
-	          <img src="BNKY-5659.jpg" alt="" /></a>
-		 <a href="BNKY-5867.jpg" data-size="1600x1060" data-author="Folkert Gorter" class="demo-gallery__img--main">
-	          <img src="BNKY-5867.jpg" alt="" /></a>
-	     <a href="BNKY-6473.jpg" data-size="1600x1060" data-author="Folkert Gorter" class="demo-gallery__img--main">
-	          <img src="BNKY-6473.jpg" alt="" /></a>
-	     <a href="BNKY-9697.jpg" data-size="1600x1060" data-author="Folkert Gorter" class="demo-gallery__img--main">
-	          <img src="BNKY-9698.jpg" alt="" /></a>
-	     
+		 <a href="<%= name %>" data-size="<%= width %>x<%= height%>" data-author="AB" class="demo-gallery__img--main">
+	          <img src="<%= name %>" alt="" /></a>	        
+	    
+
+
+	    <% end %> 
 	</div>
 </div>
 
