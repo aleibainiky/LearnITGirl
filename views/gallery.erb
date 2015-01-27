@@ -1,81 +1,58 @@
 <!DOCTYPE html>
 	<head>
 		<link href="/gallery.css" rel="stylesheet">
+		<%= erb :photoswipe %>
 	</head>
 	<body>
 <%= erb :logo %>
 <%= erb :header %>
 <%= erb :navigation %>
+
 <!-- HIDING MENU\</div>
 		<div class="menuDispose">
 			<div class="menuicon cont2img" id="menubutton">Menu</div>
 </div>-->
 <div class="gallery">
-	<div class="inner">
-		<a href="2.jpg"><img src="2.jpg" target="_blank"></a>	
-<img src="3.jpg">
-<img src="4.jpg">
-<img src="BNKY-0050.jpg">
-<img src="BNKY-0199.jpg">
-<img src="BNKY-0270.jpg">
-<img src="BNKY-0275.jpg">
-<img src="BNKY-0355.jpg">
-<img src="BNKY-0655-2.jpg">
-<img src="BNKY-9899.jpg">
-<img src="BNKY-0655.jpg">
-<img src="BNKY-1009.jpg">
-<img src="BNKY-5659.jpg">
-<img src="BNKY-5867.jpg">
-<img src="BNKY-6473.jpg">
-<img src="BNKY-9698.jpg">
-<img src="2.jpg">
-<img src="3.jpg">
-<img src="4.jpg">
-<img src="BNKY-0655-2.jpg">
-<img src="BNKY-9899.jpg">
-<img src="BNKY-0655.jpg">
-<img src="BNKY-1009.jpg">
-<img src="BNKY-5659.jpg">
-<img src="BNKY-5867.jpg">
-<img src="BNKY-0050.jpg">
-<img src="BNKY-0199.jpg">
-<img src="BNKY-0270.jpg">
-<img src="BNKY-0275.jpg">
-<img src="BNKY-0355.jpg">
-<img src="BNKY-0655-2.jpg">
-<img src="BNKY-9899.jpg">
-<img src="BNKY-0655.jpg">
-<img src="3.jpg">
-<img src="4.jpg">
-<img src="BNKY-1009.jpg">
-<img src="BNKY-5659.jpg">
-<img src="BNKY-5867.jpg">
-<img src="BNKY-6473.jpg">
-<img src="BNKY-9698.jpg">
-<img src="BNKY-0655-2.jpg">
-<img src="BNKY-9899.jpg">
-<img src="BNKY-0655.jpg">
-<img src="BNKY-5867.jpg">
-<img src="BNKY-6473.jpg">
-<img src="BNKY-1009.jpg">
-<img src="BNKY-5659.jpg">
-<img src="BNKY-5867.jpg">
-<img src="2.jpg">
-<img src="3.jpg">
-<img src="4.jpg">
-<img src="BNKY-0655-2.jpg">
-<img src="BNKY-9899.jpg">
-<img src="BNKY-0655.jpg">
-<img src="BNKY-1009.jpg">
-<img src="BNKY-5659.jpg">
-<img src="BNKY-0655.jpg">
-<img src="BNKY-1009.jpg">
-<img src="BNKY-5659.jpg">
-<img src="BNKY-5867.jpg">
-<img src="BNKY-6473.jpg">
-<img src="BNKY-9698.jpg">
+	<div class="inner demo-gallery">
+
+		 <a href="2.jpg" data-size="1600x988" data-author="AB" class="demo-gallery__img--main">
+	          <img src="2.jpg" alt="" /></a>	        
+	     <a href="4.jpg" data-size="1600x736" data-author="Folkert Gorter" class="demo-gallery__img--main">
+	          <img src="4.jpg" alt="" /></a>
+	     <a href="3.jpg" data-size="1600x736" data-author="Folkert Gorter" class="demo-gallery__img--main">
+	          <img src="3.jpg" alt="" /></a>  
+	     <a href="BNKY-0050.jpg" data-size="1600x1061" data-author="Folkert Gorter" class="demo-gallery__img--main">
+	          <img src="BNKY-0050.jpg" alt="" /></a>    
+	     <a href="BNKY-0199.jpg" data-size="1060x1600" data-author="Folkert Gorter" class="demo-gallery__img--main">
+	          <img src="BNKY-0199.jpg" alt="" /></a>  
+	     <a href="BNKY-0270.jpg" data-size="1600x1060" data-author="Folkert Gorter" class="demo-gallery__img--main">
+	          <img src="BNKY-0270.jpg" alt="" /></a> 
+		 <a href="BNKY-0275.jpg" data-size="1600x1060" data-author="Folkert Gorter" class="demo-gallery__img--main">
+	          <img src="BNKY-0275.jpg" alt="" /></a> 
+	     <a href="BNKY-0355.jpg" data-size="1060x1600" data-author="Folkert Gorter" class="demo-gallery__img--main">
+	          <img src="BNKY-0355.jpg" alt="" /></a>
+	     <a href="BNKY-0655-2.jpg" data-size="1600x1060" data-author="Folkert Gorter" class="demo-gallery__img--main">
+	          <img src="BNKY-0655-2.jpg" alt="" /></a>
+	     <a href="BNKY-9899.jpg" data-size="1060x1600" data-author="Folkert Gorter" class="demo-gallery__img--main">
+	          <img src="BNKY-9899.jpg" alt="" /></a>
+  		 <a href="BNKY-0655.jpg" data-size="1600x1060" data-author="Folkert Gorter" class="demo-gallery__img--main">
+	          <img src="BNKY-0655.jpg" alt="" /></a>
+	     <a href="BNKY-5659.jpg" data-size="1600x1060" data-author="Folkert Gorter" class="demo-gallery__img--main">
+	          <img src="BNKY-5659.jpg" alt="" /></a>
+		 <a href="BNKY-5867.jpg" data-size="1600x1060" data-author="Folkert Gorter" class="demo-gallery__img--main">
+	          <img src="BNKY-5867.jpg" alt="" /></a>
+	     <a href="BNKY-6473.jpg" data-size="1600x1060" data-author="Folkert Gorter" class="demo-gallery__img--main">
+	          <img src="BNKY-6473.jpg" alt="" /></a>
+	     <a href="BNKY-9698.jpg" data-size="1600x1060" data-author="Folkert Gorter" class="demo-gallery__img--main">
+	          <img src="BNKY-9698.jpg" alt="" /></a>
+	     
 	</div>
 </div>
+
+<%= erb :pswp %>
+<%= erb :demo %>
+
+
 	</body>
 </html>
 
