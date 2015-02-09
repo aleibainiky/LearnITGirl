@@ -79,13 +79,23 @@ div a{
 .submenu-elements{
 	display:none; 
 }
-
+.submenu-elements{
+	font-family: 'BebasNeue Light', Verdana, sans-serif;
+	font-size:24px;
+	list-style-type: none;}
+	
 #gallery-link:hover .submenu-elements{
 	display: block;
 }
 
+@font-face {
+	font-family: 'BebasNeue Book';
+	src: url('fonts/BebasNeue Book.eot');
+	src: local('BebasNeue Book'), url('fonts/BebasNeue Book.ttf');}
+
  .navigation a:hover{
-	font-weight: bold; 
+	/*font-weight: bold; */
+	font-family: 'BebasNeue Book';
 }
 
 div.header li{
